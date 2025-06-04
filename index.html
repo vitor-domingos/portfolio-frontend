@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Portfólio - Vitor Domingos</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Vitor Domingos</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Alterna navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#sobremin"
+                >Sobre mim<span class="sr-only">(Página atual)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#meusprojetos">Meus Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobremin" class="py-5">
+        <div class="text-center mt-4">
+          <img
+            src="./images/eu.jpg"
+            class="rounded-circle mb-4"
+            alt="Imagem do meu rosto"
+          />
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+              <h1 class="display-4">Desenvolvedor Front-end</h1>
+              <p class="lead mt-4 mb-4">
+                Desenvolvedor frontend em formação, dedicado a criar
+                experiências de usuário intuitivas e visualmente atraentes.
+                Utilizo HTML, CSS e JavaScript para construir layouts
+                responsivos e interações dinâmicas, com apoio de jQuery para
+                otimizar a manipulação do DOM. Estou em busca de uma vaga onde
+                possa aplicar meu conhecimento técnico, aprender continuamente e
+                colaborar com uma equipe dinâmica no desenvolvimento de soluções
+                web inovadoras.
+              </p>
+              <div class="icons">
+                <i class="fab fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="meusprojetos" class="py-5">
+        <div class="container text-center">
+          <h2 class="display-4 mb-5">Meus Projetos</h2>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 my-project-card mb-4">
+              <h2 class="text-truncate">Projeto InfoTech Store</h2>
+              <div class="project-description-container">
+                <p class="text-justify mt-4">
+                  <b>InfoTech Store: Sua Loja Online de Tecnologia</b><br />
+                  A InfoTech Store é um projeto de e-commerce responsivo e
+                  dinâmico, desenvolvido para demonstrar habilidades sólidas em
+                  desenvolvimento front-end. <br />
+                  O site oferece uma experiência de compra intuitiva para
+                  produtos de informática, desde componentes de hardware até
+                  periféricos e acessórios. <br />
+
+                  <b>Tecnologias Utilizadas:</b> <br />
+                  <b>HTML5</b>: Estrutura semântica e acessível para todas as
+                  páginas do site, garantindo a organização do conteúdo.
+                  <br />
+                  <b>CSS3</b>:Estilização moderna e atraente, com foco na
+                  usabilidade e na identidade visual da loja.
+                  <br />
+                  <b>JavaScript (Vanilla JS)</b>: Implementação de
+                  funcionalidades interativas, como sliders de produtos,
+                  validação de formulários e manipulação do DOM para uma
+                  experiência de usuário aprimorada.
+                  <br />
+                  <b>Bootstrap</b>: Utilizado para o desenvolvimento rápido e
+                  responsivo da interface, garantindo que o site se adapte
+                  perfeitamente a diferentes tamanhos de tela (desktops, tablets
+                  e smartphones).
+                  <br />
+                  <b>jQuery</b>: Simplifica a manipulação de elementos HTML,
+                  tratamento de eventos e animações, otimizando o código
+                  JavaScript e aprimorando a interatividade do site.
+                </p>
+              </div>
+
+              <figure class="figure mt-3">
+                <a
+                  href="https://infotech-store.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/InfoTech Store - Landing Page - Print.png"
+                    class="figure-img img-fluid rounded"
+                    alt="Imagem do Projeto InfoTech Store: Loja de informática com experiência de compra intuitiva."
+                  />
+                  <figcaption class="figure-caption">
+                    Projeto InfoTech Store
+                  </figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-project-card mb-4">
+              <h2 class="text-truncate">Projeto EduTech</h2>
+              <div class="project-description-container">
+                <p class="text-justify mt-4">
+                  <b>Edu-Tech: Revolucionando a Aprendizagem Online</b> <br />
+
+                  Este projeto de portfólio, Edu-Tech, é um site front-end
+                  interativo e responsivo, focado em revolucionar a aprendizagem
+                  online.<br />Desenvolvido com HTML, CSS, JavaScript e React, o
+                  Edu-Tech oferece uma experiência de usuário intuitiva e
+                  envolvente, projetada para facilitar o acesso ao conhecimento
+                  e tornar a educação mais dinâmica e acessível a todos.
+
+                  <b>Funcionalidades e Destaques</b>: <br />
+
+                  <b>Design Moderno e Responsivo</b>: O site possui um layout
+                  moderno e limpo, otimizado para uma experiência de usuário
+                  consistente em diversos dispositivos (desktops, tablets e
+                  smartphones). <br />
+                  <b>Interface Intuitiva</b>: A navegação é simplificada,
+                  permitindo que os usuários encontrem facilmente cursos,
+                  materiais e recursos educacionais. <br />
+                  <b>Componentização com React</b>: A utilização do React
+                  permitiu a criação de componentes reutilizáveis, tornando o
+                  desenvolvimento mais eficiente e a manutenção do código mais
+                  organizada. Isso se traduz em uma aplicação modular e
+                  escalável <br />
+                  <b>Interatividade com JavaScript</b>: Recursos interativos,
+                  como formulários dinâmicos, animações sutis e validações de
+                  entrada, foram implementados com JavaScript para aprimorar a
+                  experiência do usuário. <br />
+                  <b>Estilização Profissional com CSS </b>: O CSS foi empregado
+                  para criar uma identidade visual atraente e profissional,
+                  utilizando técnicas como Flexbox e Grid para um layout
+                  flexível e alinhado aos padrões modernos de design.<br />
+
+                  <b>Tecnologias Utilizadas:</b><br />
+
+                  <b>HTML5 </b> : Estruturação semântica do conteúdo. <br />
+                  <b>CSS3</b>: Estilização e responsividade da interface. <br />
+                  <b> JavaScript (ES6+)</b>: Lógica interativa e manipulação do
+                  DOM. <br />
+                  <b>React (Biblioteca)</b>: Construção da interface de usuário
+                  baseada em componentes. <br />
+
+                  O Edu-Tech demonstra minha proficiência em desenvolvimento
+                  front-end e minha capacidade de construir aplicações web
+                  modernas, funcionais e com foco na experiência do usuário. É
+                  um exemplo claro de como posso transformar ideias em soluções
+                  digitais impactantes.
+                </p>
+              </div>
+              <figure class="figure mt-3">
+                <a
+                  href="https://landing-page-edu-tech.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="./images/EduTech - Projeto - Print.png"
+                    class="figure-img img-fluid rounded"
+                    alt="Imagem do Projeto EduTech: Inovação no aprendizado digital"
+                  />
+                  <figcaption class="figure-caption">
+                    Projeto EduTech
+                  </figcaption>
+                </a>
+              </figure>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-project-card mb-4">
+              <h2 class="text-truncate">Projeto Portfólio</h2>
+              <div class="project-description-container">
+                <p class="text-justify mt-4">
+                  Este projeto demonstra minhas habilidades em desenvolvimento
+                  front-end, utilizando uma combinação robusta de HTML, CSS e
+                  JavaScript puro, complementado pelos poderosos frameworks
+                  Bootstrap e jQuery. <br />
+                  O objetivo foi criar um portfólio para apresentar meus
+                  projetos de forma interativa,responsiva e visualmente bela.
+                  <br />
+
+                  <b>Tecnologias Utilizadas</b>: <br />
+                  <b> HTML</b>: Estrutura semântica e acessível do conteúdo.
+                  <br />
+                  <b>CSS</b>: Estilização visual e responsividade, garantindo
+                  uma experiência de usuário agradável em diferentes
+                  dispositivos e tamanhos de tela. <br />
+                  <b>JavaScript</b>: Lógica interativa do lado do cliente,
+                  manipulação do DOM e criação de efeitos visuais dinâmicos na
+                  barra de navegaçaõ na navbar. <br />
+                  <b>Bootstrap</b>: Utilizado para agilizar o desenvolvimento do
+                  layout e garantir um design responsivo e consistente. O
+                  Bootstrap me permitiu construir rapidamente componentes de
+                  interface, como grids responsivos,navegação,cards,imagens
+                  otimizando o tempo e a qualidade do código. <br />
+                  <b>jQuery</b>: Empregado para simplificar a manipulação do DOM
+                  e a criação de animações e interações. O jQuery foi
+                  fundamental para efeitos de transição suaves. <br />
+                  Principais Funcionalidades / Destaques: <br />
+                  <b>Design completamente responsivo</b> , adaptando-se
+                  perfeitamente a desktops, tablets e smartphones. <br />
+                  <b>Interface de usuário intuitiva e dinâmica</b>, animações de
+                  rolagem. <br />
+
+                  Este projeto reflete minha capacidade de combinar diferentes
+                  tecnologias front-end para construir soluções web eficientes e
+                  visualmente atraentes.
+                </p>
+              </div>
+              <figure class="figure mt-3">
+                <img
+                  src="https://via.placeholder.com/400x300"
+                  class="figure-img img-fluid rounded"
+                  alt=""
+                />
+                <figcaption class="figure-caption">
+                  Projeto Portfólio
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="py-5">
+        <div class="d-flex justify-content-center">
+          <div class="jumbotron jumbotron-fluid text-center">
+            <div class="container">
+              <h1 class="display-4 mb-4">Desenvolvedor Front-end Iniciante</h1>
+              <p class="lead mb-4">
+                Olá! Sou Vitor Domingos Martins, um desenvolvedor frontend
+                apaixonado por transformar designs em interfaces web dinâmicas e
+                intuitivas. Minha jornada no desenvolvimento começou com a
+                curiosidade de entender como as coisas funcionam por trás da
+                tela, e essa paixão me impulsiona a buscar constantemente novos
+                conhecimentos. Sou estudante em HTML5, CSS3 e JavaScript (ES6+),
+                e experiência prática com jQuery, utilizando bibliotecas como
+                Bootstrap para criar componentes reutilizáveis e eficientes.
+                Também possuo conhecimento em Git para controle de versão e
+                estou aprendendo com os princípios de design responsivo e
+                acessibilidade web, buscando sempre a melhor experiência para
+                todos os usuários. Acredito que o bom código é aquele que é
+                limpo, legível e que entrega valor. Estou sempre em busca de
+                aprender as melhores práticas e estou animado para colaborar em
+                projetos desafiadores que me permitam crescer e aplicar minhas
+                habilidades. Quando não estou codificando, gosto de ouvir
+                músicas relaxantes para manter a mente fresca e criativa.
+                Explore meus projetos acima para ver como minhas habilidades
+                podem agregar valor à sua equipe!
+              </p>
+
+              <div class="container">
+                <div class="col-md-12 text-center">
+                  <a href="#meusprojetos">
+                    <button type="button" class="btn btn-primary">
+                      Ver Meus Projetos
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="py-5 text-center">
+        <div class="container">
+          <h2 class="display-4 mb-4">Entre em Contato</h2>
+          <p class="lead mb-5">
+            Conecte-se comigo nas redes sociais ou me envie um e-mail.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <a
+                href="https://github.com/vitor-domingos?tab=repositories"
+                target="_blank"
+                class="btn btn-outline-dark btn-lg mx-2 mb-3"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i> GitHub
+              </a>
+              <a
+                href="mailto:vm486092@gmail.com"
+                class="btn btn-outline-secondary btn-lg mx-2 mb-3"
+                aria-label="Email"
+              >
+                <i class="fas fa-envelope"></i> Email
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-light text-center p-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; <span id="currentYear">2025</span> Vitor Domingos Martins |
+          Todos os direitos reservados.
+        </p>
+        <p>
+          <a
+            href="https://github.com/vitor-domingos?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          |
+          <a href="mailto:vm486092@gmail.com">Email</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

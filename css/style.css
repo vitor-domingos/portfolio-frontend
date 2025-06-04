@@ -1,0 +1,315 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Um cinza claro para o fundo */
+  color: #343a40; /* Cor de texto padrão */
+}
+
+/* Navegação */
+.navbar {
+  background-color: #ffffff !important; /* Fundo branco para a barra de navegação */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave para a navegação */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #007bff !important; /* Azul primário para o nome da marca */
+}
+
+.nav-link {
+  color: #343a40 !important; /* Cor de texto para os links da navegação */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #007bff !important; /* Azul primário no hover */
+}
+
+/* Seção Sobre Mim */
+#sobremin .jumbotron {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 3rem; /* Aumenta o padding interno */
+}
+
+#sobremin img {
+  width: 200px; /* Tamanho fixo para a imagem de perfil */
+  height: 200px;
+  object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+  border: 5px solid #007bff; /* Borda azul primária na imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sobremin .display-4 {
+  color: #007bff !important; /* Azul primário para o título */
+  font-weight: 600;
+}
+
+#sobremin .lead {
+  color: #495057 !important; /* Um cinza mais escuro para o texto */
+  line-height: 1.8;
+}
+
+#sobremin .icons i {
+  font-size: 2.5rem; /* Aumenta o tamanho dos ícones */
+  margin: 0 15px;
+  color: #007bff; /* Azul primário para os ícones */
+  transition: transform 0.3s ease-in-out;
+}
+
+#sobremin .icons i:hover {
+  transform: scale(1.1); /* Efeito de escala no hover dos ícones */
+}
+
+/* Seção Meus Projetos */
+#meusprojetos {
+  background-color: #f1f1f1; /* Fundo cinza claro para a seção de projetos */
+  padding: 5rem 0; /* Padding superior e inferior */
+}
+
+#meusprojetos .my-project-card {
+  background-color: #ffffff !important; /* Fundo branco para os cards */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px; /* Padding interno */
+  margin-bottom: 30px; /* Espaçamento entre os cards */
+  transition: transform 0.3s ease-in-out;
+}
+
+#meusprojetos .my-project-card:hover {
+  transform: translateY(-5px); /* Efeito de leve levantamento no hover */
+}
+
+#meusprojetos h2 {
+  color: #007bff !important; /* Azul primário para o título do projeto */
+  background-color: #e9ecef !important; /* Fundo suave para o título */
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#meusprojetos .project-description-container p {
+  color: #495057 !important; /* Texto cinza escuro para a descrição */
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+#meusprojetos .figure-caption {
+  color: #6c757d !important; /* Cinza para a legenda da imagem */
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Seção Sobre (Detalhada) */
+#sobre .jumbotron {
+  background-color: #e9ecef !important; /* Um cinza mais claro para o jumbotron */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+#sobre h1 {
+  color: #dc3545 !important; /* Vermelho para o título "Desenvolvedor Front-end Iniciante" */
+  font-weight: 600;
+  padding: 10px 15px;
+ background-color: #ffc107 !important;/* Fundo amarelo para o título */
+  border-radius: 10px;
+}
+
+#sobre .lead {
+  color: #343a40; /* Cor de texto padrão para o parágrafo */
+  line-height: 1.8;
+}
+
+#sobre .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+#sobre .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Seção Contato */
+#contato {
+  background-color: #28a745 !important; /* Verde primário para o fundo */
+  color: #ffffff; /* Texto branco */
+  border-radius: 15px; /* Bordas arredondadas para a seção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Espaçamento antes do footer */
+}
+
+#contato h2 {
+  color: #dc3545 !important; /* Vermelho para o título "Entre em Contato" */
+  background-color: #ffc107 !important; /* Fundo amarelo para o título */
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+#contato p {
+  color: #ffc107 !important; /* Amarelo para a descrição */
+}
+
+#contato .btn-outline-dark,
+#contato .btn-outline-secondary {
+  color: #ffffff;
+  border-color: #ffffff;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+#contato .btn-outline-dark:hover,
+#contato .btn-outline-secondary:hover {
+  background-color: #ffffff;
+  color: #28a745; /* Verde primário no hover */
+}
+
+/* Rodapé */
+footer {
+  background-color: #343a40 !important; /* Cinza escuro para o rodapé */
+  color: #f8f9fa !important; /* Texto cinza claro */
+}
+
+footer a {
+  color: #007bff !important; /* Azul primário para os links no rodapé */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+  color: #ffffff !important; /* Branco no hover */
+}
+
+/* Ajustes de Responsividade para Mobile */
+@media (max-width: 767.98px) {
+    /* Navegação */
+    .navbar-collapse {
+      justify-content: center !important; /* Centraliza os itens da nav em telas menores */
+      text-align: center; /* Garante que o texto dos links também esteja centralizado */
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px; /* Adiciona um pequeno espaço entre os itens da navegação */
+    }
+  
+    /* Seção Sobre Mim */
+    #sobremin .jumbotron {
+      padding: 2rem 1rem; /* Reduz o padding horizontal em telas menores */
+      margin: 0 15px; /* Adiciona margem lateral para evitar que o jumbotron encoste nas bordas */
+    }
+  
+    #sobremin img {
+      width: 150px; /* Reduz o tamanho da imagem de perfil */
+      height: 150px;
+      margin-bottom: 1rem !important; /* Garante espaço abaixo da imagem */
+    }
+  
+    #sobremin .display-4 {
+      font-size: 2rem; /* Ajusta o tamanho do título principal */
+      margin-bottom: 1rem !important; /* Espaçamento menor */
+    }
+  
+    #sobremin .lead {
+      font-size: 0.9rem; /* Reduz o tamanho do texto para caber melhor */
+      text-align: left; /* Alinha o texto à esquerda em mobile para melhor leitura */
+    }
+  
+    #sobremin .icons i {
+      font-size: 2rem; /* Ajusta o tamanho dos ícones */
+      margin: 0 10px; /* Reduz o espaçamento entre os ícones */
+    }
+  
+    /* Seção Meus Projetos */
+    #meusprojetos {
+      padding: 3rem 0; /* Reduz o padding vertical da seção */
+    }
+  
+    #meusprojetos .display-4 {
+      font-size: 2.2rem; /* Ajusta o tamanho do título da seção */
+      margin-bottom: 3rem !important; /* Espaçamento menor */
+    }
+  
+    #meusprojetos .my-project-card {
+      padding: 20px; /* Reduz o padding interno dos cards */
+      margin: 0 15px 20px 15px; /* Adiciona margens laterais e entre os cards */
+    }
+  
+    #meusprojetos h2 {
+      font-size: 1.5rem; /* Ajusta o tamanho do título do projeto */
+      margin-top: 1rem !important;
+      margin-bottom: 1rem !important;
+    }
+  
+    #meusprojetos .project-description-container p {
+      font-size: 0.85rem; /* Reduz o tamanho da fonte da descrição */
+      text-align: left; /* Alinha o texto à esquerda em mobile */
+    }
+  
+    #meusprojetos .figure img {
+      width: 100%; /* Garante que a imagem ocupe 100% da largura do card */
+      height: auto;
+    }
+  
+    /* Seção Sobre (Detalhada) - ajuste com base na última estilização */
+    #sobre {
+      padding: 3rem 0; /* Reduz o padding vertical */
+    }
+  
+    #sobre .jumbotron {
+      padding: 2rem 1rem; /* Reduz o padding horizontal */
+      margin: 0 15px; /* Adiciona margem lateral */
+    }
+  
+    #sobre h1 {
+      font-size: 1.8rem; /* Ajusta o tamanho do título */
+      margin-bottom: 1rem !important;
+    }
+  
+    #sobre .lead {
+      font-size: 0.95rem; /* Reduz o tamanho do texto */
+      text-align: left; /* Alinha o texto à esquerda em mobile */
+    }
+  
+    #sobre .btn-primary {
+      padding: 10px 25px; /* Ajusta o padding do botão */
+      font-size: 0.9rem; /* Reduz o tamanho da fonte do botão */
+    }
+  
+    /* Seção Contato */
+    #contato {
+      padding: 3rem 0; /* Reduz o padding vertical */
+      margin: 0 15px 30px 15px; /* Adiciona margens laterais */
+    }
+  
+    #contato h2 {
+      font-size: 2rem; /* Ajusta o tamanho do título */
+      margin-bottom: 1rem !important;
+    }
+  
+    #contato p {
+      font-size: 0.9rem; /* Ajusta o tamanho do texto */
+      margin-bottom: 2rem !important;
+    }
+  
+    #contato .btn-outline-dark,
+    #contato .btn-outline-secondary {
+      display: block; /* Faz os botões ocuparem a largura total e ficarem um abaixo do outro */
+      width: calc(100% - 30px); /* Ajusta a largura para caber com as margens */
+      margin: 0 auto 15px auto !important; /* Centraliza e adiciona espaço entre eles */
+      font-size: 0.9rem; /* Ajusta o tamanho da fonte do botão */
+      padding: 10px 20px;
+    }
+  
+    /* Rodapé */
+    footer {
+      padding: 1.5rem 1rem; /* Reduz o padding do rodapé */
+      font-size: 0.85rem; /* Reduz o tamanho da fonte do rodapé */
+    }
+  }
